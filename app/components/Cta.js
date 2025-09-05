@@ -1,6 +1,6 @@
 export default function Cta() {
   return (
-    <section>
+    <section className="mb-16">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="relative px-8 py-12 md:py-20 rounded-[3rem] bg-gray-900">
 

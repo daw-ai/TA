@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function Header() {
   return (
@@ -10,7 +9,10 @@ export default function Header() {
           <div className="shrink-0 mr-4">
             {/* Logo */}
             <Link href="/" className="block" aria-label="Tech Ascension">
-              <Image src="/images/TA-favicon.png" width={32} height={32} alt="Tech Ascension Logo" />
+              <div className="flex items-center">
+                <img src="/images/TA-favicon.png" alt="Tech Ascension" className="w-8 h-8 mr-2" />
+                <span className="text-xl font-bold text-gray-900">Tech Ascension</span>
+              </div>
             </Link>
           </div>
 

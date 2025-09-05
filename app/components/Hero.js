@@ -28,7 +28,8 @@ export default function Hero() {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">🚀Unlock The Power Of <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">Top 1% Tech</span></h1>
+            <div className="text-sm font-semibold text-blue-600 mb-4" data-aos="zoom-y-out">🚀 Unlock The Power Of Top 1% Tech</div>
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Land Your Dream Tech Role in <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">60 Days</span></h1>
             <div className="max-w-3xl mx-auto">
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">We provide elite 1-on-1 coaching and a proven system to help you break into high-paying tech roles at top companies. No CS degree required.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">

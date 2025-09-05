@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import SocialProof from './SocialProof';
 
 export default function Hero() {
   return (
@@ -43,9 +43,9 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Hero image */}
-          <div className="relative flex justify-center items-center" data-aos="zoom-y-out" data-aos-delay="450">
-            <Image src="/images/hero-image-01.jpg" width={1024} height={576} alt="Tech Ascension Hero" className="rounded-lg shadow-2xl" />
+          {/* Social Proof */}
+          <div className="relative" data-aos="zoom-y-out" data-aos-delay="450">
+            <SocialProof />
           </div>
 
         </div>

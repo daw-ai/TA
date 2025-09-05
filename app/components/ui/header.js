@@ -17,17 +17,34 @@ export default function Header() {
           </div>
 
           {/* Desktop navigation */}
-          <nav className="flex grow">
-            {/* Desktop sign in links */}
-            <ul className="flex grow justify-end flex-wrap items-center">
+          <nav className="hidden md:flex md:grow">
+            {/* Desktop menu links */}
+            <ul className="flex grow justify-center flex-wrap items-center">
               <li>
-                <Link href="/privacy" className="font-medium text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Privacy Policy</Link>
+                <Link href="#about" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">
+                  About
+                </Link>
               </li>
               <li>
-                <Link href="/terms" className="font-medium text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Terms of Service</Link>
+                <Link href="#process" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">
+                  Process
+                </Link>
+              </li>
+              <li>
+                <Link href="#testimonials" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">
+                  Success Stories
+                </Link>
               </li>
             </ul>
           </nav>
+
+          {/* CTA Button */}
+          <div className="flex items-center">
+            <a className="btn-sm text-white bg-blue-600 hover:bg-blue-700 ml-3" href="#0">
+              Schedule A Call
+            </a>
+          </div>
+
         </div>
       </div>
     </header>

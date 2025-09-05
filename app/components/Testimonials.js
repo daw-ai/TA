@@ -36,7 +36,7 @@ export default function Testimonials() {
 
               {/* Testimonial image */}
               <div className="text-center absolute top-0 right-0 transform -translate-y-1/2 translate-x-1/2">
-                <Image className="rounded-full" src="/images/testimonial-01.jpg" width={48} height={48} alt="Testimonial 01" />
+                <Image className="rounded-full" src="/images/testimonial-01.jpg" width={48} height={48} alt="Testimonial 01" unoptimized />
               </div>
 
               {/* Testimonial content */}
@@ -55,7 +55,7 @@ export default function Testimonials() {
 
               {/* Testimonial image */}
               <div className="text-center absolute top-0 right-0 transform -translate-y-1/2 translate-x-1/2">
-                <Image className="rounded-full" src="/images/testimonial-02.jpg" width={48} height={48} alt="Testimonial 02" />
+                <Image className="rounded-full" src="/images/testimonial-02.jpg" width={48} height={48} alt="Testimonial 02" unoptimized />
               </div>
 
               {/* Testimonial content */}
@@ -74,7 +74,7 @@ export default function Testimonials() {
 
               {/* Testimonial image */}
               <div className="text-center absolute top-0 right-0 transform -translate-y-1/2 translate-x-1/2">
-                <Image className="rounded-full" src="/images/testimonial-03.jpg" width={48} height={48} alt="Testimonial 03" />
+                <Image className="rounded-full" src="/images/testimonial-03.jpg" width={48} height={48} alt="Testimonial 03" unoptimized />
               </div>
 
               {/* Testimonial content */}

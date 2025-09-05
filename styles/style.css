@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center border border-transparent rounded-full px-5 py-3 text-base font-medium leading-6 transition duration-150 ease-in-out;
+}
+
+.btn-primary {
+  @apply text-white bg-blue-600 hover:bg-blue-700;
+}
+
+.btn-secondary {
+  @apply text-gray-900 bg-white hover:bg-gray-100 border-gray-200;
+}
+
+.h1 {
+  @apply text-5xl md:text-6xl font-extrabold leading-tight tracking-tighter;
+}
+
+.h2 {
+  @apply text-4xl md:text-5xl font-extrabold leading-tight tracking-tighter;
+}
+
+.h3 {
+  @apply text-3xl md:text-4xl font-extrabold leading-tight tracking-tighter;
+}
+
+.h4 {
+  @apply text-2xl md:text-3xl font-extrabold leading-tight tracking-tighter;
+}
+
+.form-input {
+  @apply block w-full px-4 py-3 text-gray-800 bg-white border border-gray-200 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent;
+}
+
+.form-textarea {
+  @apply block w-full px-4 py-3 text-gray-800 bg-white border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent;
+}
+
+/* Custom styles for client logos animation */
+.client-logo-carousel {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+
+.client-logo-carousel-inner {
+  display: flex;
+  animation: scroll-left 20s linear infinite;
+}
+
+.client-logo-carousel-inner:hover {
+  animation-play-state: paused;
+}
+
+.client-logo-carousel-item {
+  flex-shrink: 0;
+  width: 120px; /* Adjust as needed */
+  height: 120px; /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px; /* Adjust spacing between logos */
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
